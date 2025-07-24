@@ -1,0 +1,1 @@
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `metadata`, `desc`) VALUES ('train_ticket', 'Train Ticket', '50', '1', 'item_standard', NULL, '{}', 'Permits one train entrance. Chug-a chug-a motion.');

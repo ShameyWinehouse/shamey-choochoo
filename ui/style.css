@@ -1,0 +1,68 @@
+@font-face {
+  font-family: lino;
+  src: url('assets/lino.woff2');
+}
+
+* {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-weight: normal;
+	overflow: hidden;
+	height: 100%;
+}
+
+/* */
+
+#choochoo-hud {
+	height: 100%;
+	width: 100%;
+	display: none;
+	color: white;
+	font-family: 'lino', sans-serif;
+	font-size: 22pt;
+}
+
+.hud-container {
+	position: absolute;
+	bottom: 270px;
+	right: 30px;
+	background-size: 100% 100%;
+	background-image: url('assets/inkroller.png');
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+#engineer-hud {
+	min-width: 175px;
+	padding: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.gauge-fuel .gauge-fuel-background {
+	content: url('assets/train-fuel-gauge-without-needle.png');
+}
+
+.gauge-fuel .gauge-fuel-needle {
+	content: url('assets/train-fuel-gauge-just-the-needle.png');
+}
+
+.measurement {
+	font-size: 14pt;
+}
+
+
+.orangeStroke {
+	stroke: #ffaf02;
+}
+
+.redStroke {
+	stroke: #FF0245;
+}
